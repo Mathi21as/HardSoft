@@ -48,22 +48,24 @@ export default function Home() {
 								>
 									<Image 
 										src={"/1.png"}
+										alt={"hardsoft-logo"}
 										width={512}
 										height={512}
-										className='w-24 mt-1 mx-0 pb-1'/>
+										className='w-24 mt-1 mx-0 pb-1'
+										/>
 								<a
-									className='mx-0 my-8 w-max bg-sky-900 p-2'
+									className='mx-0 my-8 w-max bg-sky-900 p-2 hover:animate-pulse-fast'
 									href='#contact'
 									>
 									Contáctanos
 								</a>
 							</div>
 							<h1 className='mx-auto w-max pt-32 lg:pt-36 
-								text-5xl 2xl:pt-72 2xl:text-6xl'
+								text-5xl 2xl:pt-72 2xl:text-6xl animate-fall'
 								>
 									HardSoft
 							</h1>
-							<h1 className='mx-auto w-max text-3xl pt-5 pb-72 sm:pb-0'>
+							<h1 className='mx-auto w-max text-3xl pt-5 pb-72 sm:pb-0 animate-fall'>
 								Soporte técnico informático
 							</h1>
 						</div>
@@ -155,7 +157,13 @@ export default function Home() {
 							href='https://www.linkedin.com/in/mathiled/'
 							target="_blank"
 							>
-								<Image src="/linkedin.png" width={25} height={25} className='invert'/>
+								<Image
+									src="/linkedin.png"
+									alt={"linkedin-logo-footer"}
+									width={25}
+									height={25}
+									className='invert'
+									/>
 						</a>
 						<p className='ml-6 sm:mr-10 sm:w-5/12 text-lg sm:text-center'>© 2023</p>
 					</div>

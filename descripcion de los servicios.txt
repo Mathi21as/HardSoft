@@ -1,0 +1,46 @@
+    - Servicio de Backup:
+
+    Nuestro servicio de backup te brinda la tranquilidad de que tus datos importantes están seguros y protegidos. 
+		Realizamos copias de seguridad regulares de tus archivos y configuramos sistemas de almacenamiento confiables. 
+		En caso de pérdida de datos o fallas del sistema, podemos restaurar tus archivos rápidamente para minimizar 
+		cualquier interrupción en tu trabajo.
+
+    - Instalación de Sistema Operativo:
+
+    ¿Necesitas un sistema operativo nuevo o una actualización? Nuestro servicio de instalación de sistema operativo 
+		se encarga de todo el proceso. Nos aseguramos de que tu sistema esté preparado para recibir la nueva instalación 
+		y realizamos la configuración inicial para que puedas empezar a utilizarlo de inmediato.
+
+    - Formateo de Discos:
+
+    Si deseas realizar un formateo completo de tu disco duro o eliminar todos los datos de manera segura, 
+		nuestro servicio de formateo de discos es la solución. Garantizamos una eliminación total de los datos existentes 
+		y te proporcionamos un disco limpio y listo para su uso.
+
+    - Optimización:
+
+    Si sientes que tu equipo está funcionando lento o no alcanza todo su potencial, nuestro servicio de optimización 
+		puede ayudarte. Realizamos una revisión exhaustiva de tu sistema, identificamos y eliminamos elementos innecesarios 
+		o mal configurados, y ajustamos la configuración para mejorar el rendimiento general de tu equipo.
+
+    - Eliminación de Virus:
+
+    Los virus informáticos pueden ser una pesadilla, pero estamos aquí para ayudarte. Nuestro servicio de 
+		eliminación de virus detecta y elimina de forma segura cualquier malware, spyware o virus que puedas tener en tu 
+		sistema. Además, te ofrecemos asesoramiento sobre cómo mantener tu equipo protegido en el futuro.
+
+    - Limpieza y Mantenimiento:
+
+    Mantén tu equipo en condiciones óptimas con nuestro servicio de limpieza y mantenimiento. Realizamos una limpieza 
+		exhaustiva de hardware y software para eliminar el polvo, optimizar la ventilación y asegurarnos de que todos los 
+		componentes estén en buen estado. Además, realizamos actualizaciones y verificaciones de seguridad para mantener tu 
+		equipo funcionando sin problemas.
+
+    - Instalación de Componentes:
+
+    ¿Necesitas agregar nuevos componentes a tu equipo? Ya sea una tarjeta gráfica, memoria RAM o cualquier otro 
+		dispositivo, nuestro servicio de instalación de componentes se encarga de todo. Nos aseguramos de que los componentes 
+		estén correctamente instalados y configurados, para que puedas disfrutar de un rendimiento óptimo.
+
+Estos son solo algunos de los servicios que ofrecemos para cubrir tus necesidades de soporte técnico informático. Estamos 
+aquí para ayudarte a mantener tus equipos funcionando sin problemas y aprovechar al máximo la tecnología.
