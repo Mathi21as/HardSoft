@@ -1,5 +1,5 @@
 const Services = () => {
-	const images = [
+	const services = [
 		["bg-[url('./../resources/limpieza-y-mantenimiento.jpg')]",
 			"Limpieza y mantenimiento",
 			`Mantén tu equipo en condiciones óptimas con nuestro servicio de limpieza y mantenimiento. Realizamos una limpieza 
@@ -46,10 +46,51 @@ const Services = () => {
 		],
 	];
 
+	const renderTextAndDescription = (index, service) => {
+		if (index % 2 === 0){
+			return(
+				<>
+					<p className="px-5 w-6/12 text-xl md:text-2xl h-max">
+						{service[1]}
+					</p>
+					<p 
+						className="
+							px-5 w-6/12 text-lg h-full overflow-scroll md:overflow-y-hidden 
+							overflow-x-hidden 2xl:hover:overflow-hidden opacity-40 
+							hover:animate-opacityAument hover:opacity-80 
+							md:hover:overflow-y-scroll
+							"
+						>
+						{service[2]}
+					</p>
+				</>
+			)
+		}
+		else{
+			return(
+				<>
+					<p 
+						className="
+							px-5 w-6/12 text-lg h-full overflow-scroll md:overflow-y-hidden 
+							overflow-x-hidden 2xl:hover:overflow-hidden opacity-40 
+							hover:animate-opacityAument hover:opacity-80 
+							md:hover:overflow-y-scroll
+						"
+						>
+						{service[2]}
+					</p>
+					<p className="px-5 w-6/12 text-xl md:text-2xl h-max text-end">
+						{service[1]}
+					</p>
+				</>
+			)
+		}
+	}
+
 	return(
 		<>
 			{
-				images.map((img, index)=>{
+				services.map((service, index)=>{
 					return(
 						<div 
 							className={`
@@ -60,30 +101,21 @@ const Services = () => {
 								}
 								`}
 							key={index}>
-								<div className={`bg-cover ${img[0]} w-full h-40 2xl:h-64 my-4`}>
+								<div className={`bg-cover bg-center ${service[0]} w-full h-60 2xl:h-64 my-4`}>
 									<div 
 										className={`
-											 h-40 2xl:h-64 flex w-full
+											 h-60 2xl:h-64 flex w-full items-center py-3.5
 											${index % 2 === 0 ?
 												`bg-gradient-to-r from-black/80 from-20% 
-												via-sky-950 via-80% to-sky-950`                                         //transform via-100%
+												via-sky-950 via-80% to-sky-950`
 												:
 												`bg-gradient-to-l from-black/80 from-20% via-sky-950 
-													via-80% to-sky-950 text-end`
+													via-80% to-sky-950`
 												}
 											`}
 										key={index}
 											>
-											<p className="px-5 w-6/12 text-lg h-max">
-												{img[1]}
-											</p>
-											<p 
-												className="
-													px-5 w-6/12 text-lg h-full overflow-scroll 
-													overflow-x-hidden 2xl:overflow-hidden"
-												>
-													
-											</p>
+											{renderTextAndDescription(index, service)}
 									</div>
 								</div>
 						</div>
