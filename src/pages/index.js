@@ -77,6 +77,10 @@ export default function Home() {
 					<hr
 						className='bg-sky-900/50 border-0 h-1 mb-4 mx-auto w-40 sm:w-full'/>
 					<Services />
+					<p className='mt-7 p-5 text-lg bg-sky-900/50'>
+						Estos son solo algunos de los servicios que ofrecemos para cubrir tus necesidades de soporte técnico informático. Estamos 
+						aquí para ayudarte a mantener tus equipos funcionando sin problemas y aprovechar al máximo la tecnología.
+					</p>
 				</section>
 
 				<section className='w-11/12 sm:w-7/12 mx-auto mt-12 mb-14'>
