@@ -33,7 +33,7 @@ export default function Home() {
 				<meta name="robots" content="noindex,nofollow" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-sky-950'>
+      <main className='bg-sky-950 text-white'>
 				<section>
 					<header 
 						className="sm:h-cienvh bg-cover bg-[url('./../resources/header.jpg')]">
@@ -54,7 +54,8 @@ export default function Home() {
 										className='w-24 mt-1 mx-0 pb-1'
 										/>
 								<a
-									className='mx-0 my-8 w-max bg-sky-900 p-2 hover:animate-pulse-fast'
+									className='mx-0 my-8 w-max bg-sky-900 p-2 
+										hover:animate-pulse-fast'
 									href='#contact'
 									>
 									Contáctanos
@@ -65,8 +66,10 @@ export default function Home() {
 								>
 									HardSoft
 							</h1>
-							<h1 className='mx-auto w-max text-3xl pt-5 pb-72 sm:pb-0 animate-fall'>
-								Soporte técnico informático
+							<h1 className='mx-auto w-max text-3xl pt-5 pb-72 
+								sm:pb-0 animate-fall'
+								>
+									Soporte técnico informático
 							</h1>
 						</div>
 					</header>
