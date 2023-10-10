@@ -7,9 +7,6 @@ import AttentionDays from '@/components/AttentionDays';
 
 export default function Home() {
 	const dataContact = [
-		["https://www.svgrepo.com/show/303147/whatsapp-icon-logo.svg",
-			"https://wa.me/5492645080812","whatsapp-logo"
-		],
 		["https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg",
 			"https://www.instagram.com/hardsoft_sanjuan/","instagram-logo"
 		],
@@ -80,35 +77,10 @@ export default function Home() {
 					<hr
 						className='bg-sky-900/50 border-0 h-1 mb-4 mx-auto w-40 sm:w-full'/>
 					<Services />
-					<p className='mt-7 p-5 text-lg bg-sky-900/50'>
+					<p className='mt-7 mb-10 p-5 text-lg bg-sky-900/50'>
 						Estos son solo algunos de los servicios que ofrecemos para cubrir tus necesidades de soporte técnico informático. Estamos 
 						aquí para ayudarte a mantener tus equipos funcionando sin problemas y aprovechar al máximo la tecnología.
 					</p>
-				</section>
-
-				<section className='w-11/12 sm:w-7/12 mx-auto mt-12 mb-14'>
-					<p className='w-max m-auto text-2xl sm:text-3xl mb-2'>
-						Nos encontramos en
-					</p>
-					<hr
-						className='bg-sky-900/50 border-0 h-1 mb-4 w-60 sm:w-72
-							mx-auto sm:w-full'
-						/>
-					<iframe
-						src="
-							https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1471.64224
-							1704666!2d-68.57400704670641!3d-31.537027653370163!2m3!1f0!2f0!3
-							f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968140ffc0882c7f%3A0x2ea0
-							5f69ffb4bc17!2sJuan%20Lavalle%20Oeste%20562%2C%20Rivadavia%2C%20
-							San%20Juan!5e0!3m2!1ses-419!2sar!4v1685543360301!5m2!1ses-419!2s
-							ar
-							"
-						className='w-full border-0 mx-auto'
-						height="300"
-						allowFullScreen=""
-						loading="lazy"
-						referrerPolicy="no-referrer-when-downgrade">
-					</iframe>
 				</section>
 
 				<footer 
@@ -140,7 +112,7 @@ export default function Home() {
 								className='w-8/12 sm:w-full m-auto mt-5 text-center
 									text-lg text-gray-300'
 								>
-									Juan Lavalle 562 (O), Rivadavia, San Juan
+									Rivadavia, San Juan
 							</p>
 						</div>
 						<div className='w-full sm:w-4/12 sm:mx-4 py-5'>
